@@ -80,7 +80,7 @@ div class: "articleList", ->
 					#	" B" + start + ";" + end
 
 					if end >= @document.page.count
-						start = @document.page.count - visiblePages + 1
+						start = @document.page.count - visiblePages
 						end = @document.page.count
 
 					#span -> 
