@@ -1,4 +1,4 @@
-header id: "siteHeader", class: "img-responsive", style: "background-image: url(" + ( @document.heroImageUrl or '/images/dynamo.jpg' )+ ");", ->
+header id: "siteHeader", class: "img-responsive", style: "background-image: url(" + ( @document.heroImageUrl or '/images/template/dynamo.jpg' )+ ");", ->
   
 	div ->
 		@partial('nav')

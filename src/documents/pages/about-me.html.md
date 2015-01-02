@@ -25,8 +25,8 @@ Se volete contattarmi potete scrivermi:
 *   <span style="line-height: 1.7em;">con twitter [@salem_84](http://twitter.com/salem_84)</span>
 &nbsp;
 
-![MCPD(rgb)_1350_1429_1372](/images/MCPDrgb_1350_1429_1372.png)
+![MCPD(rgb)_1350_1429_1372](/images/pages/MCPDrgb_1350_1429_1372.png)
 
-![MCTS(rgb)_1347_525](/images/MCTSrgb_1347_525.png)![MCTS(rgb)_1373_1374_1370_1401](/images/MCTSrgb_1373_1374_1370_1401.png)
+![MCTS(rgb)_1347_525](/images/pages/MCTSrgb_1347_525.png)![MCTS(rgb)_1373_1374_1370_1401](/images/pages/MCTSrgb_1373_1374_1370_1401.png)
 
-![MS(rgb)_1485_1486](/images/MSrgb_1485_1486.png)
+![MS(rgb)_1485_1486](/images/pages/MSrgb_1485_1486.png)

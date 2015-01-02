@@ -48,8 +48,8 @@ function createTagCloud() {
 	}
 
 	function drawBackground(c, w, h, cx, cy) {
-		var img = new Image();
-		img.src = '/images/galassia.jpg';
+		//var img = new Image();
+		//img.src = '/images/galassia.jpg';
 		//c.drawImage(img, cx, cy);
 
 		c.setTransform(1, 0, 0, 1, 0, 0);
@@ -59,7 +59,7 @@ function createTagCloud() {
 		var f2= 0.5 - step;
 		var cfimg = new Image();
 		//cfimg.src = 'http://peter.bg/dave.png';  // Image location ''
-		cfimg.src = '/images/panda.png';
+		cfimg.src = '/images/template/panda.png';
 		c.drawImage(cfimg, w*f2/2, h*f2/2, w*f1, h*f1);
 
 	}

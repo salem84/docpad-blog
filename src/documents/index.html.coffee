@@ -122,16 +122,16 @@ div class: "articleList", ->
 				ul class: "list-inline", ->
 					li ->
 						a href: "http://it.linkedin.com/in/giorgiolasala", target: "_blank", ->
-							img class: "img-responsive resizeMe", src: "/images/linkedin-icon.png"
+							img class: "img-responsive resizeMe", src: "/images/template/linkedin-icon.png"
 					li ->
 						a href: "http://twitter.com/salem_84/", target: "_blank", ->
-							img class: "img-responsive resizeMe", src: "/images/twitter-icon.png"
+							img class: "img-responsive resizeMe", src: "/images/template/twitter-icon.png"
 					li ->	
 						a href: "http://www.infos.it", target: "_blank", -> 
-							img class: "img-responsive resizeMe", src: "/images/briefcase-icon.png"
+							img class: "img-responsive resizeMe", src: "/images/template/briefcase-icon.png"
 					li ->	
 						a href: "https://github.com/salem84", target: "_blank", -> 
-							img class: "img-responsive resizeMe", src: "/images/github-icon.png"
+							img class: "img-responsive resizeMe", src: "/images/template/github-icon.png"
 
 
 			### GitHub

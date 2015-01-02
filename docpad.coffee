@@ -178,6 +178,14 @@ docpadConfig = {
 					layout: 'tag'
 				)
 
+		# Dateurls
+		dateurls:
+			cleanurl: true
+			trailingSlashes: true
+			dateFormat: '/YYYY/MM'
+		
+
+
 		
 
 	# =================================
