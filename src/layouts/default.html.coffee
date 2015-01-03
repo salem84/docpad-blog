@@ -25,6 +25,21 @@ html ->
 
     text @getBlock('styles').add(@site.styles).toHTML()
 
+    meta "property":"og:locale", "content": "it_IT"
+    meta "property":"og:type", "content": "article"
+    meta "property":"og:title", "content": @document.title or @site.title
+    meta "property":"og:description", "content": @document.description or @site.description
+    meta "property":"og:url", "content": @site.url + @document.url
+    meta "property":"og:site_name", "content": @site.title
+    meta "property":"og:image", "content": @document.imageUrl or @site.defaultImageUrl
+
+    meta "property":"article:author", "content": @site.author
+    meta "property":"article:publisher", "content": @site.author
+    #meta "property":"article:published_time", "content": 
+    meta "property":"article:tag", "content": @document.tags
+
+
+
     @partial('ga')
     
   body ->

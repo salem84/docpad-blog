@@ -34,8 +34,7 @@ docpadConfig = {
 			# The website author's name
 			author: "Giorgio Lasala"
 
-			# The website author's email
-			email: "giorgio.lasala@gmail.com"
+			defaultImageUrl : ""
 
 			# Styles
 			styles: [
