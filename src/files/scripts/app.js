@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	createTagCloud();
+	$('.post , .post-content').emoticonize();
 });
 
 
@@ -16,7 +17,6 @@ function createTagCloud() {
 			freezeActive: true,
 			freezeDecel: true,
 			shuffleTags: true,
-			
 			textColour: '#333',
 			animTiming: 'Smooth',
 			initial: [0.1,-0.1],

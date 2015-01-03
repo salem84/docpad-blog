@@ -42,7 +42,9 @@ div class: "articleList", ->
 					div class: "post-content", ->
 						@getCuttedContent(String(document.contentRenderedWithoutLayouts))
 
-					
+					if @hasReadMore(String(document.contentRenderedWithoutLayouts))
+						div class:"read-more-btn", ->
+							a href:document.url, -> "Continua..."
 
 			## Pagination
 			div class: "pagination", ->

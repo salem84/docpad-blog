@@ -44,6 +44,7 @@ docpadConfig = {
 				"http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700",
 				"http://fonts.googleapis.com/css?family=Niconne",
 				"https://highlightjs.org/static/demo/styles/vs.css",
+				"/css/jquery.cssemoticons.css",
 				"/css/font-awesome.min.css",
 				"/css/style.css",
 
@@ -54,7 +55,8 @@ docpadConfig = {
 				"//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"
 				"//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js",
 				#"//ajax.googleapis.com/ajax/libs/webfont/1.5.6/webfont.js"
-				"/scripts/jquery.tagcanvas.js"
+				"/scripts/jquery.cssemoticons.min.js",
+				"/scripts/jquery.tagcanvas.js",
 				"/scripts/app.js"
 			]
 
