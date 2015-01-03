@@ -24,6 +24,8 @@ html ->
       script async: yes, src: "http://html5shim.googlecode.com/svn/trunk/html5.js"
 
     text @getBlock('styles').add(@site.styles).toHTML()
+
+    @partial('ga')
     
   body ->
     div id: "bodyWrapper", ->
