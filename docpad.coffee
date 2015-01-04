@@ -42,7 +42,7 @@ docpadConfig = {
 				#"/static/bootstrap.css"
 				"http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700",
 				"http://fonts.googleapis.com/css?family=Niconne",
-				"https://highlightjs.org/static/demo/styles/vs.css",
+				"//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/vs.min.css",
 				"/css/jquery.cssemoticons.css",
 				"/css/font-awesome.min.css",
 				"/css/style.css",
