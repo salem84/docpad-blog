@@ -117,7 +117,7 @@ div class: "articleList", ->
 		
 
 
-		aside class: "col-md-3 col-md-offset-2 text-center", ->
+		aside class: "col-md-3 col-md-offset-2 text-center", id: "side-menu", ->
 			## Social Info
 			article id: "social-info", ->	
 			
