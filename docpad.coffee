@@ -16,7 +16,7 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://giorgiolasala.azurewebsites.net"
+			url: "http://www.giorgiolasala.it"
 
 			# The default title of our website
 			title: "Giorgio Lasala Blog"
