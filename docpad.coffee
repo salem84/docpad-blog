@@ -132,9 +132,6 @@ docpadConfig = {
 		pages: (database) ->
 			database.findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])
 
-		posts: (database) ->
-			database.findAllLive({layout: 'post', isDraft: $exists: false}, [{date: -1}])
-
 		posts_and_drafts: (database) ->
 			database.findAllLive({layout: 'post' }, [{date: -1}])
 
@@ -143,11 +140,15 @@ docpadConfig = {
 	# Environments
 
 	environments:
-		development:
-			
+		production:
 			collections:
-				pages: (database) ->
-					database.findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])
+				posts: (database) ->
+					database.findAllLive({layout: 'post', isDraft: $exists: false}, [{date: -1}])
+
+		development:
+			collections:
+				posts: (database) ->
+					database.findAllLive({layout: 'post' }, [{date: -1}])
 
 			plugins:
 				livereload:
