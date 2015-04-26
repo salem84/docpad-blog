@@ -22,9 +22,9 @@ article id: "post", class: "post", ->
 		if @document.serie
 			div id: "summary", ->
 				ul ->
-					for doc in @getCollection('documents').findAll({serie: '$in': @document.serie}).toJSON()
+					for doc in @getCollection('posts_and_drafts').findAll({serie: '$in': @document.serie}, [title:1]).toJSON()
 						li ->
-							if @document.isDraft
+							if doc.isDraft
 								span ->
 									doc.title
 							else
