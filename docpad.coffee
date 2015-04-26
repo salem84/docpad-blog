@@ -142,8 +142,6 @@ docpadConfig = {
 	environments:
 		development:
 			
-			
-
 			collections:
 				pages: (database) ->
 					database.findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])

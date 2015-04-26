@@ -24,8 +24,12 @@ article id: "post", class: "post", ->
 				ul ->
 					for doc in @getCollection('documents').findAll({serie: '$in': @document.serie}).toJSON()
 						li ->
-							a href:doc.url, ->
-								doc.title
+							if @document.isDraft
+								span ->
+									doc.title
+							else
+								a href:doc.url, ->
+									doc.title
 
 		div ->
 			@content
