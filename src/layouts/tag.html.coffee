@@ -7,7 +7,7 @@ h1 ->
 	i @document.tag
 
 ul ->
-	for doc in @getCollection('documents').findAll({tags: '$in': @document.tag}).toJSON()
+	for doc in @getCollection('posts').findAll({tags: '$in': @document.tag}).toJSON()
 		li ->
 			a href:doc.url, ->
 				doc.title
