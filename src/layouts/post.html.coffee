@@ -19,6 +19,18 @@ article id: "post", class: "post", ->
 				div class: "tag_item", ->
 					a href: "/tags/"+ tag.replace(" ", "-").toLowerCase(), -> tag
 
+		if @document.serie
+			div id: "summary", ->
+				ul ->
+					for doc in @getCollection('posts_and_drafts').findAll({serie: '$in': @document.serie}, [title:1]).toJSON()
+						li ->
+							if doc.isDraft
+								span ->
+									doc.title
+							else
+								a href:doc.url, ->
+									doc.title
+
 		div ->
 			@content
 
