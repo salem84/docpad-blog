@@ -1,7 +1,7 @@
 Personal Blog
 ==============
 
-## Realizzato con [DocPad](http://docpad.org) Project
+## Realizzato con [DocPad](http://docpad.org)
 
 Post fino al _2014-03-15_ provengono da importazione Wordpress
 
