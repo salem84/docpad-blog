@@ -4,7 +4,7 @@ env:
   - $GH_REPO="salem84/salem84.github.io"
   - $GIT_EMAIL="salem84@users.noreply.github.com"
   - $GIT_NAME="salem84"
-  - secure: "MKUFV4gytRc1fr5wUDojpGFUD1+WyO0WwjaytqzJsUdSEeeu03zeVRJ3CDakkInZIOGvG7rnYRYTMGcO4Dru8XEN1oT4V5y5WJCRdem9ylzW2lszFimobzx13LS8ebXx/poZN6JzXn3JEW7LVnV5oqN/4UZO0ym4zUNIuc6iI+8="  
+  - secure: "BtPPX+uCBIXzKyO2qSDOBRP3o14jffmadIomXKKX/cz4jai/Ic1CzH/3GivfYA+zLbY2sQpNukEbh83jsuVYjvfAlXCXa+iffcgrVveV7xliNgLAxDiU1RAD25snOKowo1wXRVD4y/v87hIT0ch/wi6cRPBLJGz+90Ov/rR1nO4="
 language: node_js
 script:
   - if [[ $TRAVIS_PULL_REQUEST == 'false' ]]; then node_modules/.bin/docpad deploy-ghpages --env static; fi
