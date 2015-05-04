@@ -184,6 +184,9 @@ docpadConfig = {
 			trailingSlashes: true
 			dateFormat: '/YYYY/MM'
 		
+		ghpages:
+        	deployRemote: 'target'
+        	deployBranch: 'master'
 
 
 		
