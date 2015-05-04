@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Gulp Tutorial 2 - Plugins
-date: 2015-04-27
+date: 2015-05-05
 tags: ["Gulp"]
 serie: gulp-tutorial
-isDraft: true
 ---
 
 Nel primo post abbiamo creato la solution VS con uno script Gulp che non fa nulla! Almeno però non va in errore :D
