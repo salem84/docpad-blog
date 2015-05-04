@@ -140,6 +140,12 @@ docpadConfig = {
 	# Environments
 
 	environments:
+
+		static:
+			collections:
+				posts: (database) ->
+					database.findAllLive({layout: 'post', isDraft: $exists: false}, [{date: -1}])
+					
 		production:
 			collections:
 				posts: (database) ->
