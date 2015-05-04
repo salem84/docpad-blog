@@ -1,4 +1,3 @@
-sudo: required
 env:
   global:
   - $GH_REPO="salem84/salem84.github.io"
