@@ -39,7 +39,7 @@ var gutil = require('gulp-util');
 var guglify = require('gulp-uglify');
 ```
 
-Per evitare di inserire tutte le *require* con le rispettive variabili, ci viene in soccorso **gulp-load-plugins** che consente di raggruppare tutte le dipendenze sotto un'unica variabile. Di default, vengono 'prelevate' tutti i package che seguono il pattern *'gulp-\*'*, *'gulp.\*'*. 
+Per evitare di inserire tutte le *require* con le rispettive variabili, ci viene in soccorso **gulp-load-plugins** che consente di raggruppare tutte le dipendenze sotto un'unica variabile. Di default, vengono 'prelevate' tutti i package che seguono il pattern ** 'gulp-\*' ** e ** 'gulp.\*' **. 
 
 Quindi all'interno del *gulpfile.js* avremo semplicemente:
 
