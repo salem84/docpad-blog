@@ -35,7 +35,7 @@ Il sorgente del blog è compilato da Travis CI lanciando lo script (presente nel
 	docpad deploy-ghpages --env static
 ```
 	
-e attraverso [https://github.com/docpad/docpad-plugin-ghpages](GitHub Pages Deployer Plugin for DocPad) è copiato nel repository master di [http://salem84.github.io](salem84.github.io)
+e attraverso [GitHub Pages Deployer Plugin for DocPad](https://github.com/docpad/docpad-plugin-ghpages) è copiato nel repository master di [salem84.github.io](http://salem84.github.io)
 
 ## Licenza
 Copyright &copy; 2014 All rights reserved.
