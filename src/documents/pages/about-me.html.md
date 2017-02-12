@@ -12,7 +12,7 @@ Sono quindi più di 6 anni che opero sul territorio romano come consulente .NET 
 
 Inoltre, recentemente con la mia azienda ci stiamo orientando sempre più verso le tecnologie _cloud_, analizzando e sfruttando, ove possibile, per i nostri nuovi lavori Microsoft Windows Azure, con tutti i benefici e feature che l'infrastruttura cloud di Microsoft ci mette a disposizione.
 
-Il blog stesso, dopo un lungo periodo su _Wordpress.com_ è stato migrato a un'istanza _WebSite_ di **<u>Azure</u>** e da Marzo 2015 su **Heroku** un'altra piattaforma cloud, direttamente collegata al mio account su [Github](https://github.com/salem84) !
+Il blog stesso, dopo un lungo periodo su _Wordpress.com_ è stato migrato a un'istanza _WebSite_ di **<u>Azure</u>** e da Marzo 2015 ~~su **Heroku** un'altra piattaforma cloud,~~ su [GitHub Pages](http://salem84.github.io/) direttamente collegato al codice sorgente presente sempre su [Github](https://github.com/salem84/docpad-blog) !
 
 Proprio per questo motivo cerco sempre di rimanere aggiornato e studiare il più possibile anche prendendo spunti e idee dai libri ma soprattutto dai numerosi blog sia italiani che stranieri presenti in Rete, mettendoci sempre qualcosa di mio per personalizzare la soluzione ai requisiti effettivi o semplicemente per migliorarla.
 
